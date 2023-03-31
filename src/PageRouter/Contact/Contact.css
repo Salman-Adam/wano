@@ -1,0 +1,25 @@
+.form label {
+    display: block;
+}
+.form .input-group{
+    margin-bottom: 20px;
+}
+.form button {
+    display: block;
+    background-color: var(--main-color);  
+}
+.form textarea {
+    min-height: 160px;  
+}
+.Contact {
+    direction: rtl;
+}
+.contact_send .btn:hover {
+    background-color: rgb(8, 122, 118);
+    color: #fff;
+}
+@media (max-width : 767px) {
+    .contact_send .btn {
+        width: 100%;
+    }
+}

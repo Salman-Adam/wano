@@ -1,5 +1,7 @@
-AWS_LAMBDA_JS_RUNTIME
 [[redirects]]
 from = "/*"
 to = "/index.html"
 status = 200
+[context.production.environment]
+  AWS_LAMBDA_JS_RUNTIME = "nodejs18.x"
+  NODE_NO_WARNINGS = "1"
